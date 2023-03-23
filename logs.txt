@@ -1,0 +1,91 @@
+---> master:
+$ git log
+commit f34bf05d970bc01af5687611e6c5a4532a7fe3d4 (HEAD -> master, origin/master, origin/bug3, origin/HEAD, bug3)
+Author: vojvodata <121470883+vojvodata@users.noreply.github.com>
+Date:   Fri Mar 17 15:54:15 2023 +0100
+
+    Fix method sumEvenNumbers
+
+commit bb069a46500e0eb1f5079d5eb10984892d9a0b7a
+Merge: 7803ba3 848c958
+Author: vojvodata <121470883+vojvodata@users.noreply.github.com>
+Date:   Fri Mar 17 16:03:45 2023 +0100
+
+    Merge branch 'bug2'
+
+commit 848c958839ebccc38d481f15e1b0087eb06c4391 (origin/bug2, bug2)
+Author: vojvodata <121470883+vojvodata@users.noreply.github.com>
+Date:   Fri Mar 17 15:44:12 2023 +0100
+
+    Fix wrong condition in filterOddNumbers
+
+commit 7803ba350f0b8db7ac7d844461b3680f7acc6dee (origin/bug1, bug1)
+Author: vojvodata <121470883+vojvodata@users.noreply.github.com>
+Date:   Fri Mar 17 15:42:24 2023 +0100
+
+
+
+---> bug1:
+$ git log
+commit 7803ba350f0b8db7ac7d844461b3680f7acc6dee (HEAD -> bug1, origin/bug1)
+Author: vojvodata <121470883+vojvodata@users.noreply.github.com>
+Date:   Fri Mar 17 15:42:24 2023 +0100
+
+    Fix wrong loop for reading
+
+commit fe82e496da62ed33cac6bf128e578f449ae726b4
+Author: vojvodata <121470883+vojvodata@users.noreply.github.com>
+Date:   Fri Mar 17 15:26:37 2023 +0100
+
+    Add java class
+
+commit a71f82b8b20ba2169e22178417263ea7be25201d
+Author: vojvodata <121470883+vojvodata@users.noreply.github.com>
+Date:   Fri Mar 17 15:25:38 2023 +0100
+
+    Initial commit
+
+---> bug2:
+$ git log
+commit 848c958839ebccc38d481f15e1b0087eb06c4391 (HEAD -> bug2, origin/bug2)
+Author: vojvodata <121470883+vojvodata@users.noreply.github.com>
+Date:   Fri Mar 17 15:44:12 2023 +0100
+
+    Fix wrong condition in filterOddNumbers
+
+commit fe82e496da62ed33cac6bf128e578f449ae726b4
+Author: vojvodata <121470883+vojvodata@users.noreply.github.com>
+Date:   Fri Mar 17 15:26:37 2023 +0100
+
+    Add java class
+
+commit a71f82b8b20ba2169e22178417263ea7be25201d
+Author: vojvodata <121470883+vojvodata@users.noreply.github.com>
+Date:   Fri Mar 17 15:25:38 2023 +0100
+
+    Initial commit
+
+---> bug3:
+$ git log
+commit f34bf05d970bc01af5687611e6c5a4532a7fe3d4 (HEAD -> bug3, origin/master, origin/bug3, origin/HEAD, master)
+Author: vojvodata <121470883+vojvodata@users.noreply.github.com>
+Date:   Fri Mar 17 15:54:15 2023 +0100
+
+    Fix method sumEvenNumbers
+
+commit bb069a46500e0eb1f5079d5eb10984892d9a0b7a
+Merge: 7803ba3 848c958
+Author: vojvodata <121470883+vojvodata@users.noreply.github.com>
+Date:   Fri Mar 17 16:03:45 2023 +0100
+
+    Merge branch 'bug2'
+
+commit 848c958839ebccc38d481f15e1b0087eb06c4391 (origin/bug2, bug2)
+Author: vojvodata <121470883+vojvodata@users.noreply.github.com>
+Date:   Fri Mar 17 15:44:12 2023 +0100
+
+    Fix wrong condition in filterOddNumbers
+
+commit 7803ba350f0b8db7ac7d844461b3680f7acc6dee (origin/bug1, bug1)
+Author: vojvodata <121470883+vojvodata@users.noreply.github.com>
+Date:   Fri Mar 17 15:42:24 2023 +0100  

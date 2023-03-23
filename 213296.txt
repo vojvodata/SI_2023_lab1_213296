@@ -1,0 +1,53 @@
+1. Направено 
+2. Сменето од main во master
+3. Креиран репозиториум со името SI_2023_lab1_213296
+4. Креирав локален директориум и го инициализирав git co $ git init
+5. Со $ git remote add origin https://github.com/vojvodata/SI_2023_lab1_213296.git
+6. Со $ notepad README.md отворив датотека. Co $ git commit -m "Initial commit" ја commit-нав.
+7. Со $ notepad SILab1.java отворив Java file. Co $ git commit -m "Add java class" ја commit-нав.
+8. Со командата $ git push ја синхронизирав гранката со remote repo-то.
+9. Со командите $ git checkout -b bug1 master, $ git checkout -b bug2 master, $ git checkout -b bug3 master отворив 3 нови гранки.
+10. $ git checkout bug1
+11. Ја поправив грешката во for циклусот бришајќи го еднаквото. Напишав $ git add SILab1.java па одма потоа $ git commit -m "Fix wrong loop for reading" во гранката bug1.
+12. $ git checkout bug2
+13. Во filterOddNumbers го поправив if statement-ot од == во != за да може да ги земеме непарните броеви во резултантната низа. Прво после fix-oт пишав $ git add SILab1.java па одма потоа $ git commit -m "Fixed wrong condition"
+14. $ git checkout bug3
+15. Ја поправив грешката, наместо * сменив во + и сумата првично ја иницијализирав на 0. $ git add SILab1.java па потоа $ git commit -m "Fix method sumEvenNumbers"
+16. $ git push --all origin
+17. $ git checkout master
+18. $ git merge bug1
+---> 
+Updating fe82e49..7803ba3
+Fast-forward
+ SILab1.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+19. $ git push --all origin
+20. $ git merge bug2
+Auto-merging SILab1.java
+Merge made by the 'ort' strategy.
+ SILab1.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+21. $ git push --all origin
+22. $ git checkout bug3
+23. $ git rebase master
+Successfully rebased and updated refs/heads/bug3.
+24. $ git checkout master
+25. $ git merge bug3
+Updating bb069a4..f34bf05
+Fast-forward
+ SILab1.java | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+26. 
+master ---> $ git push
+bug1 ---> $ git push --set-upstream origin bug1
+bug2 ---> $ git push --set-upstream origin bug2
+bug3 ---> $ git push --force --set-upstream origin bug3
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/vojvodata/SI_2023_lab1_213296.git
+ + d13a2c4...f34bf05 bug3 -> bug3 (forced update)
+branch 'bug3' set up to track 'origin/bug3'.
+27. Со командата $ notepad logs.txt креирав датотека за логовите. Ги ископирав од сите гранки логовите поединечно. 
+28. $ git commit -m "Final commit"... $ git push --all origin
+
+
+
